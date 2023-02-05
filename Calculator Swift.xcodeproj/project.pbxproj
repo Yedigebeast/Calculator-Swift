@@ -14,6 +14,7 @@
 		FE15A67B2987F46E00F6920B /* Calculator_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE15A6792987F46E00F6920B /* Calculator_Swift.xcdatamodeld */; };
 		FE15A67D2987F46F00F6920B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE15A67C2987F46F00F6920B /* Assets.xcassets */; };
 		FE15A6802987F46F00F6920B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE15A67E2987F46F00F6920B /* LaunchScreen.storyboard */; };
+		FE8954E8298AAE8700BAB127 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8954E7298AAE8700BAB127 /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FE15A67C2987F46F00F6920B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE15A67F2987F46F00F6920B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE15A6812987F46F00F6920B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8954E7298AAE8700BAB127 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,39 @@
 			children = (
 				FE15A6702987F46E00F6920B /* AppDelegate.swift */,
 				FE15A6722987F46E00F6920B /* SceneDelegate.swift */,
-				FE15A6742987F46E00F6920B /* ViewController.swift */,
-				FE15A6762987F46E00F6920B /* Main.storyboard */,
+				FE8954E9298AAF1700BAB127 /* Model */,
+				FE8954EA298AAF1C00BAB127 /* Controller */,
+				FE8954EB298AAF2500BAB127 /* View */,
 				FE15A67C2987F46F00F6920B /* Assets.xcassets */,
 				FE15A67E2987F46F00F6920B /* LaunchScreen.storyboard */,
 				FE15A6812987F46F00F6920B /* Info.plist */,
 				FE15A6792987F46E00F6920B /* Calculator_Swift.xcdatamodeld */,
 			);
 			path = "Calculator Swift";
+			sourceTree = "<group>";
+		};
+		FE8954E9298AAF1700BAB127 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8954E7298AAE8700BAB127 /* CalculatorLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE8954EA298AAF1C00BAB127 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE15A6742987F46E00F6920B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE8954EB298AAF2500BAB127 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE15A6762987F46E00F6920B /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +170,7 @@
 			files = (
 				FE15A6752987F46E00F6920B /* ViewController.swift in Sources */,
 				FE15A6712987F46E00F6920B /* AppDelegate.swift in Sources */,
+				FE8954E8298AAE8700BAB127 /* CalculatorLogic.swift in Sources */,
 				FE15A6732987F46E00F6920B /* SceneDelegate.swift in Sources */,
 				FE15A67B2987F46E00F6920B /* Calculator_Swift.xcdatamodeld in Sources */,
 			);
